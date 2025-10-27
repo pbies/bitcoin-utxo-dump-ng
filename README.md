@@ -2,8 +2,10 @@
 
 Run:
 
-1. ./init
-2. ./run02
+```bash
+./init
+./run02
+```
 
 Original work:
 
