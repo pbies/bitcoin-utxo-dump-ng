@@ -1,9 +1,17 @@
 # Bitcoin UTXO Dump NG
 
-Run:
+First clone the repo:
+```bash
+git clone https://github.com/pbies/bitcoin-utxo-dump-ng.git
+```
 
-1. ./init
-2. ./run02
+Then run:
+```bash
+./init
+./run02
+```
+
+The code is multithreaded (MT) so it will run faster than the original one.
 
 Original work:
 
