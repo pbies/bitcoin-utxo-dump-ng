@@ -1,0 +1,2 @@
+rsync -avtu --delete /mnt/d/Bitcoin/chainstate/ /home/user/.bitcoin/chainstate/
+>&2 echo -ne "\a"
