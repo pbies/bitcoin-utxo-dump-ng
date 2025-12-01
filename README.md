@@ -7,8 +7,8 @@ git clone https://github.com/pbies/bitcoin-utxo-dump-ng.git
 
 Then run:
 ```bash
-./init
-./run02
+./01init
+./02run
 ```
 
 The code is multithreaded (MT) so it will run faster than the original one.
