@@ -5,6 +5,11 @@ First clone the repo:
 git clone https://github.com/pbies/bitcoin-utxo-dump-ng.git
 ```
 
+Change folder:
+```bash
+cd bitcoin-utxo-dump-ng
+```
+
 Then run:
 ```bash
 ./01init
