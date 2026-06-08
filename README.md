@@ -20,7 +20,7 @@ Then run:
 
 The code is multithreaded (MT) so it will run faster than the original one.
 
-Chainstate folder (~/.bitcoin/chainstate) may be corrupted after dump.
+Chainstate folder (`~/.bitcoin/chainstate`) may be corrupted after dump.
 Then you need to reindex-chainstate in Bitcoin Core.
 
 Original work:
