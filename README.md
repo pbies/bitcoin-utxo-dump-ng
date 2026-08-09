@@ -28,6 +28,13 @@ The code is multithreaded (MT) so it will run faster than the original one.
 Chainstate folder (`~/.bitcoin/chainstate`) may be corrupted after dump.
 Then you need to reindex-chainstate in Bitcoin Core. Or restore chainstate folder from backup.
 
+If you need to install Go lang use these commands:
+```bash
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt install golang-go
+```
+
 Original work:
 
 https://github.com/in3rsha/bitcoin-utxo-dump
