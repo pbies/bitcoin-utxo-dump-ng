@@ -28,6 +28,8 @@ The code is multithreaded (MT) so it will run faster than the original one.
 Chainstate folder (`~/.bitcoin/chainstate`) may be corrupted after dump.
 Then you need to reindex-chainstate in Bitcoin Core. Or restore chainstate folder from backup.
 
+EDIT 2026-09-16: best is to operate on chainstate folder copy.
+
 If you need to install Go lang use these commands:
 ```bash
 sudo add-apt-repository ppa:longsleep/golang-backports
